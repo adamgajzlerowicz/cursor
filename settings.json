@@ -1,0 +1,84 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "prettier.requireConfig": true,
+  "vim.handleKeys": {
+    "j": true
+  },
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "scm.defaultViewMode": "tree",
+  "files.autoSave": "onFocusChange",
+  "explorer.confirmDelete": false,
+  "js/ts.implicitProjectConfig.checkJs": true,
+  "eslint.format.enable": true,
+  "eslint.codeActionsOnSave.mode": "problems",
+  "eslint.validate": ["javascript"],
+  "workbench.editor.closeOnFileDelete": true,
+  "editor.fontSize": 16,
+  "workbench.list.openMode": "singleClick",
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "git.autofetch": true,
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "eslint.probe": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "vue",
+    "markdown",
+    "astro"
+  ],
+  "editor.accessibilitySupport": "off",
+  "git.confirmSync": false,
+  "workbench.statusBar.visible": false,
+  "diffEditor.renderSideBySide": false,
+  "zenMode.hideActivityBar": true,
+  "zenMode.hideStatusBar": true,
+  "workbench.editor.showTabs": "single",
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "packages/agility/dist": true
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/dist": true
+  },
+  "zenMode.showTabs": "single",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "editor.linkedEditing": true,
+  "workbench.editor.openPositioning": "last",
+  "explorer.openEditors.sortOrder": "editorOrder",
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorTheme": "Default Dark+",
+  "editor.peekWidgetDefaultFocus": "tree",
+  "git.enableSmartCommit": true,
+  "git.smartCommitChanges": "all",
+  "editor.stickyScroll.enabled": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.colorCustomizations": {
+    "editorLineNumber.foreground": "#1e1e1e", // Replace with your background color
+    "editorLineNumber.activeForeground": "#c586c0" // Your desired visible color for the current line number
+  },
+  "editor.autoIndent": "full",
+  "editor.rulers": [],
+  "diffEditor.ignoreTrimWhitespace": true
+
+}
