@@ -240,5 +240,26 @@
     "key": "cmd+k",
     "command": "workbench.view.scm",
     "when": "workbench.scm.active && activeViewlet != 'workbench.view.scm'"
+  },
+  {
+    "key": "cmd+y",
+    "command": "workbench.action.openRecent"
+  },
+  {
+    "key": "ctrl+r",
+    "command": "-workbench.action.openRecent"
+  },
+  {
+    "key": "cmd+y",
+    "command": "-editor.action.previewDeclaration"
+  },
+  {
+    "key": "cmd+y",
+    "command": "-aichat.newfollowupaction"
+  },
+  {
+    "key": "cmd+y",
+    "command": "-editor.action.inlineDiffs.acceptPartialEdit",
+    "when": "editorTextFocus && (arbitrary function)"
   }
 ]
