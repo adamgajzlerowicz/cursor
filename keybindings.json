@@ -261,5 +261,15 @@
     "key": "cmd+y",
     "command": "-editor.action.inlineDiffs.acceptPartialEdit",
     "when": "editorTextFocus && (arbitrary function)"
+  },
+  {
+    "key": "ctrl+r",
+    "command": "-workbench.action.tasks.reRunTask",
+    "when": "taskCommandsRegistered && !terminalFocus"
+  },
+  {
+    "key": "alt+p",
+    "command": "workbench.action.tasks.runTask",
+    "args": "Git Quick Commit and Push"
   }
 ]

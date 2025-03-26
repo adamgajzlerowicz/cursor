@@ -19,7 +19,7 @@
   "eslint.codeActionsOnSave.mode": "problems",
   "eslint.validate": ["javascript"],
   "workbench.editor.closeOnFileDelete": true,
-  "editor.fontSize": 16,
+  "editor.fontSize": 14,
   "workbench.list.openMode": "singleClick",
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": true,
@@ -67,7 +67,7 @@
   "explorer.openEditors.sortOrder": "editorOrder",
   "explorer.confirmDragAndDrop": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "workbench.colorTheme": "Default Dark+",
+  "workbench.colorTheme": "Default Dark Modern",
   "editor.peekWidgetDefaultFocus": "tree",
   "git.enableSmartCommit": true,
   "git.smartCommitChanges": "all",
@@ -79,6 +79,11 @@
   },
   "editor.autoIndent": "full",
   "editor.rulers": [],
-  "diffEditor.ignoreTrimWhitespace": true
+  "diffEditor.ignoreTrimWhitespace": true,
+  "editor.guides.indentation": false,
+  "editor.guides.bracketPairs": false,
+  "editor.lineHeight": 24,
+  "editor.hover.enabled": false,
+  "files.saveConflictResolution": "overwriteFileOnDisk"
 
 }
