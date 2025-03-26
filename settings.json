@@ -37,7 +37,6 @@
   ],
   "editor.accessibilitySupport": "off",
   "git.confirmSync": false,
-  "workbench.statusBar.visible": false,
   "diffEditor.renderSideBySide": false,
   "zenMode.hideActivityBar": true,
   "zenMode.hideStatusBar": true,
@@ -84,6 +83,7 @@
   "editor.guides.bracketPairs": false,
   "editor.lineHeight": 24,
   "editor.hover.enabled": false,
-  "files.saveConflictResolution": "overwriteFileOnDisk"
-
+  "files.saveConflictResolution": "overwriteFileOnDisk",
+  "workbench.hover.delay": null,
+  "workbench.statusBar.visible": false,
 }
