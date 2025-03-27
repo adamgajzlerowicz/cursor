@@ -268,7 +268,7 @@
     "when": "taskCommandsRegistered && !terminalFocus"
   },
   {
-    "key": "alt+p",
+    "key": "cmd+o",
     "command": "workbench.action.tasks.runTask",
     "args": "Git Quick Commit and Push"
   }

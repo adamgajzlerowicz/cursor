@@ -67,7 +67,7 @@
   "explorer.openEditors.sortOrder": "editorOrder",
   "explorer.confirmDragAndDrop": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "workbench.colorTheme": "Default Dark Modern",
+  "workbench.colorTheme": "GitHub Light Default",
   "editor.peekWidgetDefaultFocus": "tree",
   "git.enableSmartCommit": true,
   "git.smartCommitChanges": "all",
@@ -83,7 +83,7 @@
   "editor.guides.indentation": false,
   "editor.guides.bracketPairs": false,
   "editor.lineHeight": 24,
-  "editor.hover.enabled": false,
+  // "editor.hover.enabled": false,
   "files.saveConflictResolution": "overwriteFileOnDisk"
 
 }
