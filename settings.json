@@ -66,7 +66,7 @@
   "explorer.openEditors.sortOrder": "editorOrder",
   "explorer.confirmDragAndDrop": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "workbench.colorTheme": "Default Dark Modern",
+  "workbench.colorTheme": "Default Light Modern",
   "editor.peekWidgetDefaultFocus": "tree",
   "git.enableSmartCommit": true,
   "git.smartCommitChanges": "all",
@@ -86,4 +86,5 @@
   "files.saveConflictResolution": "overwriteFileOnDisk",
   "workbench.hover.delay": null,
   "workbench.statusBar.visible": false,
+  "diffEditor.hideUnchangedRegions.enabled": true,
 }
