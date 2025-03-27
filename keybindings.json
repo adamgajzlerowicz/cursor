@@ -125,11 +125,11 @@
     "command": "editor.action.smartSelect.shrink",
     "when": "editorTextFocus"
   },
-  {
-    "key": "cmd+shift+a",
-    "command": "aichat.newchataction",
-    "when": "!terminalFocus"
-  },
+  // {
+  //   "key": "cmd+shift+a",
+  //   "command": "aichat.newchataction",
+  //   "when": "!terminalFocus"
+  // },
   {
     "key": "cmd+l",
     "command": "-aichat.newchataction"
@@ -271,5 +271,18 @@
     "key": "cmd+o",
     "command": "workbench.action.tasks.runTask",
     "args": "Git Quick Commit and Push"
-  }
+  },
+  {
+    "key": "cmd+shift+a",  
+    "command": "workbench.action.toggleAuxiliaryBar"
+  },
+  {
+    "key": "shift+cmd+a",
+    "command": "-notification.acceptPrimaryAction",
+    "when": "notificationFocus || notificationToastsVisible"
+  },
+  {
+    "key": "shift+cmd+a",
+    "command": "-workbench.action.showCommands"
+  },
 ]
