@@ -83,11 +83,10 @@
   "editor.guides.bracketPairs": false,
   "editor.lineHeight": 24,
   "editor.hover.enabled": false,
-  "files.saveConflictResolution": "overwriteFileOnDisk",
   "workbench.hover.delay": null,
   "workbench.statusBar.visible": false,
-  "diffEditor.hideUnchangedRegions.enabled": true,
   // "editor.hover.enabled": false,
-  "files.saveConflictResolution": "overwriteFileOnDisk"
+  "files.saveConflictResolution": "overwriteFileOnDisk",
+  "extensions.ignoreRecommendations": true
 
 }

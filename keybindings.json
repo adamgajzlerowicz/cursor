@@ -242,7 +242,7 @@
     "when": "workbench.scm.active && activeViewlet != 'workbench.view.scm'"
   },
   {
-    "key": "cmd+y",
+    "key": "cmd+o",
     "command": "workbench.action.openRecent"
   },
   {
@@ -268,7 +268,7 @@
     "when": "taskCommandsRegistered && !terminalFocus"
   },
   {
-    "key": "cmd+o",
+    "key": "cmd+y",
     "command": "workbench.action.tasks.runTask",
     "args": "Git Quick Commit and Push"
   },
