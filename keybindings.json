@@ -272,8 +272,12 @@
     "command": "workbench.action.tasks.runTask",
     "args": "Git Quick Commit and Push"
   },
+  // {
+  //   "key": "cmd+shift+a",  
+  //   "command": "workbench.action.toggleAuxiliaryBar"
+  // },
   {
-    "key": "cmd+shift+a",  
+    "key": "cmd+g",  
     "command": "workbench.action.toggleAuxiliaryBar"
   },
   {
