@@ -81,7 +81,6 @@
   "editor.guides.bracketPairs": false,
   "editor.lineHeight": 24,
   "workbench.statusBar.visible": false,
-  "files.saveConflictResolution": "overwriteFileOnDisk",
   "extensions.ignoreRecommendations": true,
   "workbench.editor.labelFormat":"short" ,
   "workbench.editor.decorations.badges": true,
@@ -98,4 +97,5 @@
   "[go]": {
     "editor.defaultFormatter": "golang.go"
   },
+  "workbench.colorTheme": "Solarized Light+",
 }
