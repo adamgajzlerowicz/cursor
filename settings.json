@@ -46,7 +46,9 @@
   "search.exclude": {
     "**/node_modules": true,
     "**/dist": true,
-    "packages/agility/dist": true
+    "packages/agility/dist": true,
+    "**/gql.ts": true,
+    "**/__types__": true,
   },
   "files.exclude": {
     "**/.git": true,
@@ -82,7 +84,7 @@
   "editor.guides.indentation": false,
   "editor.guides.bracketPairs": false,
   "editor.lineHeight": 24,
-  "editor.hover.enabled": false,
+  "editor.hover.enabled": true,
   "workbench.statusBar.visible": false,
   "files.saveConflictResolution": "overwriteFileOnDisk",
   "extensions.ignoreRecommendations": true,
@@ -90,5 +92,5 @@
   "workbench.editor.decorations.badges": true,
   "breadcrumbs.enabled": false,
   "workbench.editor.tabCloseButton": "off",
-  "workbench.editor.tabActionCloseVisibility": false
+  "workbench.editor.tabActionCloseVisibility": false,
 }
