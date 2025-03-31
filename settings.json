@@ -46,9 +46,6 @@
   "search.exclude": {
     "**/node_modules": true,
     "**/dist": true,
-    "packages/agility/dist": true,
-    "**/gql.ts": true,
-    "**/__types__": true,
   },
   "files.exclude": {
     "**/.git": true,
@@ -68,7 +65,6 @@
   "explorer.openEditors.sortOrder": "editorOrder",
   "explorer.confirmDragAndDrop": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "workbench.colorTheme": "Solarized Light+",
   "editor.peekWidgetDefaultFocus": "tree",
   "git.enableSmartCommit": true,
   "git.smartCommitChanges": "all",
@@ -84,7 +80,6 @@
   "editor.guides.indentation": false,
   "editor.guides.bracketPairs": false,
   "editor.lineHeight": 24,
-  "editor.hover.enabled": true,
   "workbench.statusBar.visible": false,
   "files.saveConflictResolution": "overwriteFileOnDisk",
   "extensions.ignoreRecommendations": true,
@@ -93,4 +88,14 @@
   "breadcrumbs.enabled": false,
   "workbench.editor.tabCloseButton": "off",
   "workbench.editor.tabActionCloseVisibility": false,
+  "files.saveConflictResolution": "overwriteFileOnDisk",
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "go.lintTool": "golangci-lint",
+  "go.vetOnSave": "package",
+  "go.goroot": "/opt/homebrew/opt/go/libexec",
+  "go.lintFlags": ["--fast", "--exclude=cuddle"],
+  "go.toolsManagement.autoUpdate": true,
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
 }
