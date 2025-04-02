@@ -294,4 +294,13 @@
     "command": "-editor.action.inlineDiffs.nextDiffFile",
     "when": "editorTextFocus && (arbitrary function)"
   },
+  {
+    "key": "cmd+i",
+    "command": "composerMode.agent"
+  },
+  {
+    "key": "cmd+r",
+    "command": "git.openFile",
+    "when": "isInDiffEditor"
+}
 ]

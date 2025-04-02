@@ -88,7 +88,6 @@
   "workbench.editor.tabCloseButton": "off",
   "workbench.editor.tabActionCloseVisibility": false,
   "files.saveConflictResolution": "overwriteFileOnDisk",
-  "diffEditor.hideUnchangedRegions.enabled": true,
   "go.lintTool": "golangci-lint",
   "go.vetOnSave": "package",
   "go.goroot": "/opt/homebrew/opt/go/libexec",
