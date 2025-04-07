@@ -315,5 +315,21 @@
     "key": "cmd+r",
     "command": "git.openFile",
     "when": "isInDiffEditor"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "-workbench.action.debug.run",
+    "when": "debuggersAvailable && !inDebugMode && !terminalFocus"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "-deleteRight",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "-composer.createNew",
+    "when": "composerFocused || focusedView =~ /^workbench.panel.aichat.view/"
   }
+
 ]

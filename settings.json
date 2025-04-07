@@ -54,7 +54,13 @@
     "**/CVS": true,
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
-    "**/dist": true
+    "**/dist": true,
+    "**/index.android.bundle*": true,
+    "**/tsconfig.tsbuildinfo": true,
+    "**/.next": true,
+    "**/yarn**": true,
+    "**/node_modules": true,
+    "**/.idea/*": true,
   },
   "zenMode.showTabs": "single",
   "editor.codeActionsOnSave": {
@@ -96,6 +102,7 @@
   "[go]": {
     "editor.defaultFormatter": "golang.go"
   },
-  "workbench.colorTheme": "Solarized Light+",
   "cursor.composer.shouldChimeAfterChatFinishes": true,
+  // "workbench.colorTheme": "Visual Studio Dark",
+  "workbench.colorTheme": "Quiet Light",
 }
