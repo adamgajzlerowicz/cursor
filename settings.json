@@ -61,6 +61,10 @@
     "**/yarn**": true,
     "**/node_modules": true,
     "**/.idea/*": true,
+    "**/schema.gql": true,
+    "**/gql.ts": true,
+    "**/schema.json": true,
+    "**/__types__/**": true,
   },
   "zenMode.showTabs": "single",
   "editor.codeActionsOnSave": {
@@ -103,6 +107,6 @@
     "editor.defaultFormatter": "golang.go"
   },
   "cursor.composer.shouldChimeAfterChatFinishes": true,
-  // "workbench.colorTheme": "Visual Studio Dark",
+  "workbench.colorTheme": "Visual Studio Dark",
   "workbench.colorTheme": "Quiet Light",
 }
