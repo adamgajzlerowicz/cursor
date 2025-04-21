@@ -107,7 +107,7 @@
     "editor.defaultFormatter": "golang.go"
   },
   "cursor.composer.shouldChimeAfterChatFinishes": true,
-  "terminal.integrated.scrollback": 50000,
+  "terminal.integrated.scrollback": 5000,
   "workbench.colorTheme": "Visual Studio Dark",
-  // "workbench.colorTheme": "Quiet Light",
+  "workbench.colorTheme": "Quiet Light",
 }
