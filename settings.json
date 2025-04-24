@@ -19,7 +19,7 @@
   "eslint.codeActionsOnSave.mode": "problems",
   "eslint.validate": ["javascript"],
   "workbench.editor.closeOnFileDelete": true,
-  "editor.fontSize": 14,
+  "editor.fontSize": 16,
   "workbench.list.openMode": "singleClick",
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": true,
@@ -107,7 +107,11 @@
     "editor.defaultFormatter": "golang.go"
   },
   "cursor.composer.shouldChimeAfterChatFinishes": true,
-  "terminal.integrated.scrollback": 5000,
-  "workbench.colorTheme": "Visual Studio Dark",
-  "workbench.colorTheme": "Quiet Light",
+  "terminal.integrated.scrollback": 50000,
+  "cursor.composer.collapsePaneInputBoxPills": true,
+  "terminal.integrated.fontSize": 14,
+  "debug.console.fontSize": 14,
+  "chat.editor.fontSize": 14,
+  "workbench.colorTheme": "Default Dark+",
+  // "workbench.colorTheme": "Quiet Light",
 }
