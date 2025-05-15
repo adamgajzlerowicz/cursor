@@ -112,6 +112,8 @@
   "terminal.integrated.fontSize": 14,
   "debug.console.fontSize": 14,
   "chat.editor.fontSize": 14,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.gotoLocation.multipleDefinitions": "goto",
   "workbench.colorTheme": "Default Dark+",
-  // "workbench.colorTheme": "Quiet Light",
+  "workbench.colorTheme": "Quiet Light",
 }
