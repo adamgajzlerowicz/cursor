@@ -125,11 +125,7 @@
     "command": "editor.action.smartSelect.shrink",
     "when": "editorTextFocus"
   },
-  // {
-  //   "key": "cmd+shift+a",
-  //   "command": "aichat.newchataction",
-  //   "when": "!terminalFocus"
-  // },
+
   {
     "key": "cmd+l",
     "command": "-aichat.newchataction"
