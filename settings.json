@@ -110,4 +110,5 @@
   "terminal.integrated.scrollback": 5000,
   "workbench.colorTheme": "Visual Studio Dark",
   "workbench.colorTheme": "Quiet Light",
+  "git.openRepositoryInParentFolders": "never",
 }
